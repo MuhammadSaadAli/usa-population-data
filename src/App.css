@@ -1,0 +1,72 @@
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #be8cf3, #3f6cb9);
+  color: white;
+} */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Default text color for readability */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c, #ffae42, #ffd700);
+  background-size: 400% 400%; /* Larger size for smooth animation */
+  animation: gradientAnimation 5s linear  infinite alternate; /* Apply the animation */
+}
+
+/* Define the gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c, #ffae42, #8d813e);
+  }
+  25% {
+    background-position: 25% 50%;
+    background: linear-gradient(45deg, #6e600d, #42a5f5, #ab47bc, #e53935);
+  }
+  50% {
+    background-position: 50% 50%;
+    background: linear-gradient(45deg, #42a5f5, #66bb6a, #8d6221, #ab47bc);
+  }
+  75% {
+    background-position: 75% 50%;
+    background: linear-gradient(45deg, #ff7eb3, #867b3e, #e53935, #42a5f5);
+  }
+  100% {
+    background-position: 100% 50%;
+    background: linear-gradient(45deg, #d19f5e, #ab47bc, #66bb6a, #ff758c);
+  }
+}
+
+
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  background: rgba(100, 71, 71, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto !important;
+}
