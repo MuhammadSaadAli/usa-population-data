@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/usa-population-data/static/css/main.5f032b4e.css",
+    "main.js": "/usa-population-data/static/js/main.6dc39cfd.js",
+    "static/js/453.df1e74e3.chunk.js": "/usa-population-data/static/js/453.df1e74e3.chunk.js",
+    "index.html": "/usa-population-data/index.html",
+    "main.5f032b4e.css.map": "/usa-population-data/static/css/main.5f032b4e.css.map",
+    "main.6dc39cfd.js.map": "/usa-population-data/static/js/main.6dc39cfd.js.map",
+    "453.df1e74e3.chunk.js.map": "/usa-population-data/static/js/453.df1e74e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f032b4e.css",
+    "static/js/main.6dc39cfd.js"
+  ]
+}
